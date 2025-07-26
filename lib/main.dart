@@ -31,7 +31,7 @@ class _PDFQuestionPageState extends State<PDFQuestionPage> {
 
   Future<void> askQuestion() async {
     final response = await http.post(
-      Uri.parse("http://127.0.0.1:5000/ask"), // Replace with your Flask backend URL
+      Uri.parse("Replace with your Flask backend URL"),
       headers: {"Content-Type": "application/json"},
       body: jsonEncode({
         "question": _questionController.text,
