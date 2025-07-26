@@ -1,1 +1,19 @@
+# Count Dart files normally
+*.dart linguist-language=Dart
+
+# Ignore CMake/Windows build files from language stats
+build/ linguist-vendored
+windows/ linguist-vendored
+*.vcxproj linguist-vendored
+*.pdb linguist-vendored
+*.lib linguist-vendored
+*.exe linguist-vendored
+*.cmake linguist-vendored
+*.tlog linguist-vendored
+*.sln linguist-vendored
+
+# Ignore cache and intermediate Dart files
+.flutter-plugins-dependencies linguist-vendored
+.packages linguist-vendored
+.dart_tool/ linguist-vendored
 
