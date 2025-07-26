@@ -1,16 +1,18 @@
-# smart_pdf
+# Smart-PDF
+An AI-powered learning assistant that helps students study smarter.
 
-A new Flutter project.
+Description:
 
-## Getting Started
+Smart PDF is an intelligent educational app where students can upload their school textbooks as PDFs. When a student asks a question, the app identifies the relevant page number from the uploaded book, provides a concise answer based on the book's context, and also enriches the response with additional information from external sources. Helpful reference links are also provided to support deeper learning.
 
-This project is a starting point for a Flutter application.
+Key Features:
 
-A few resources to get you started if this is your first Flutter project:
+• Upload school textbooks in PDF format
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+• Ask questions related to the book content
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+• Get answers with exact page number references
+
+• Access additional insights beyond the book
+
+• Relevant external links for further reading
